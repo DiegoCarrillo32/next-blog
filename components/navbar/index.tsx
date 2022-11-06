@@ -21,7 +21,9 @@ const Navbar = () => {
                     </>
                 ): 
                 (
-                <ul id='ul' className={styles.ul}>
+                <ul id='ul' className={styles.ul} style={{
+                    padding:'0'
+                }}>
                     <li>
                         <a href='#top'>
                             <Image src={"/icon-512x512.png"} alt="My Logo" width={100} height={100} />
@@ -45,12 +47,14 @@ const Navbar = () => {
         <nav className={styles['nav-responsive']} id="navbar">
             <div className={styles.space}>
                     <a style={{
-                        paddingLeft:'50px',
+                        // paddingLeft:'50px',
                         cursor:'pointer',
                         marginTop:'-12px'
                     }} href="#top"><Image src={"/icon-512x512.png"} alt="My Logo" width={100} height={100} /></a>
             </div>
-            <ul id='ul'>
+            <ul id='ul' style={{
+                padding:'0'
+            }}>
                 <li>
                     <Link href={"https://www.diegocarrillodev.com"}>My website</Link>        
                 </li>
