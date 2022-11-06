@@ -2,6 +2,7 @@ import { useEffect, useRef } from "react";
 import { Card } from "../components/Card";
 import styles from '../styles/Home.module.css'
 import { useInView, motion } from 'framer-motion';
+import { Spacer } from '../components/spacer/index';
 export default function Home() {
   const aboveImg = useRef(null);
   const isInViewAbove = useInView(aboveImg);
@@ -34,12 +35,14 @@ export default function Home() {
         </motion.h1>
 
       </div>
-      <div ref={aboveImg}></div>
+      <div ref={aboveImg}>
+      </div>
+      <Spacer/>
       <div className={styles.container}>
-        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es solidity y porqué tienes que aprenderlo" type="" />
         <section className={styles['card-container']}>
-        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
-        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
+        <Card description="Porqué utilizar next sobre otras opciones?" image="/next.webp" link="/article/2" title="Ventajas de NextJS" type="small" />
+        <Card description="Una herramienta de agricultura regenerativa" image="/plan21.webp" link="/article/3" title="Que es y que hace el proyecto YvY ?" type="small" />
         
         </section>
       </div>

@@ -31,7 +31,7 @@ const Navbar = () => {
                     </li>
                     
                     <li>
-                        <Link href={"https://www.diegocarrillodev.com"}>My website</Link>
+                        <Link href={"https://www.diegocarrillodev.com"}>My portfolio</Link>
                     </li>
 
                 <li>
@@ -47,7 +47,7 @@ const Navbar = () => {
         <nav className={styles['nav-responsive']} id="navbar">
             <div className={styles.space}>
                     <a style={{
-                        // paddingLeft:'50px',
+                        paddingLeft:'50px',
                         cursor:'pointer',
                         marginTop:'-12px'
                     }} href="https://blog.diegocarrillodev.com/#top"><Image src={"/icon-512x512.png"} alt="My Logo" width={100} height={100} /></a>
@@ -56,7 +56,7 @@ const Navbar = () => {
                 padding:'0'
             }}>
                 <li>
-                    <Link href={"https://www.diegocarrillodev.com"}>My website</Link>        
+                    <Link href={"https://www.diegocarrillodev.com"}>My portfolio</Link>        
                 </li>
                 <li>
                     <a href='/CVDiegoC.pdf' style={{

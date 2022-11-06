@@ -19,7 +19,9 @@ export const Card = ( {title, description, image, link, type}:Card ) => {
                 <div className={styles["img-container-sm"]}>
                     <Image src={image} alt={title}   layout='fill'  />
                 </div>
-                <h1>{title}</h1>
+                <h1  style={{
+                            borderBottom: "1px solid #3C3C3C",
+                        }}>{title}</h1>
                 <p>{description}</p>
                 <Link href={link}>Read more</Link>
             </article>
@@ -29,7 +31,9 @@ export const Card = ( {title, description, image, link, type}:Card ) => {
                         <Image src={image} alt={title}   layout='fill'  />
                     </div>
                     <div className={styles["text-md"]}>
-                        <h1>{title}</h1>
+                        <h1 style={{
+                            borderBottom: "1px solid #3C3C3C",
+                        }}>{title}</h1>
                         <p>{description}</p>
                     </div>
                 
