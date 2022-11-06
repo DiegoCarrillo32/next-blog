@@ -18,6 +18,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <meta name="theme-color" content="#000000" />
         <meta name="description" content="I am a Computer engineer that focues on web solutions!"/>
         <link rel="icon" href="./pixil-frame-0.png" />
+        <link rel="shortcut icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" href="./logo192.png" />
         
     </Head>
