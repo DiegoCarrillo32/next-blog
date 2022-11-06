@@ -4,12 +4,18 @@ export default function Home() {
   return (
     <div>      
       <div className={styles.container}>
-        <Card description="It is all an illusion" image="/forest.webp" link="" title="Does your brushing actually help your cellulitis?" type="" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="" />
         <section className={styles['card-container']}>
-          <Card description="It is all an illusion" image="/forest.webp" link="" title="Does your brushing actually help your cellulitis?"  type="small" />
-          <Card description="It is all an illusion" image="/forest.webp" link="" title="Does your brushing actually help your cellulitis?"  type="small" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
+        <Card description="Lee sobre esta tecnologia que está explotando en el mercado" image="/block.webp" link="/article/1" title="Que es blockchain y porqué tienes que aprenderlo" type="small" />
         </section>
-      
       </div>
     </div>
   )

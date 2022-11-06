@@ -22,15 +22,16 @@ export const Card = ( {title, description, image, link, type}:Card ) => {
                 <a href={link}>Read more</a>
             </article>
         ) : (
-            <article className={styles["card-md"]}>
-                <div className={styles["img-container-md"]}>
-                    <Image src={image} alt={title}   layout='fill'  />
-                </div>
-                <div className={styles["text-md"]}>
-                    <h1>{title}</h1>
-                    <p>{description}</p>
-                </div>
-            </article>
+            <a href={link} className={styles["card-md"]}>
+                    <div className={styles["img-container-md"]}>
+                        <Image src={image} alt={title}   layout='fill'  />
+                    </div>
+                    <div className={styles["text-md"]}>
+                        <h1>{title}</h1>
+                        <p>{description}</p>
+                    </div>
+                
+            </a>
         )
     
   )

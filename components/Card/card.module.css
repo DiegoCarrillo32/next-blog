@@ -57,6 +57,7 @@
     margin: 1rem;
     cursor: pointer;
     background-color: white;
+    overflow: hidden;
 }
 
 .card-md h1 {
