@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react'
 import styles from './card.module.css';
 interface Card {
@@ -9,6 +10,7 @@ interface Card {
     type:string;
 }
 export const Card = ( {title, description, image, link, type}:Card ) => {
+
   return (
     
     
@@ -19,10 +21,10 @@ export const Card = ( {title, description, image, link, type}:Card ) => {
                 </div>
                 <h1>{title}</h1>
                 <p>{description}</p>
-                <a href={link}>Read more</a>
+                <Link href={link}>Read more</Link>
             </article>
         ) : (
-            <a href={link} className={styles["card-md"]}>
+            <Link href={link} className={styles["card-md"]}>
                     <div className={styles["img-container-md"]}>
                         <Image src={image} alt={title}   layout='fill'  />
                     </div>
@@ -31,7 +33,7 @@ export const Card = ( {title, description, image, link, type}:Card ) => {
                         <p>{description}</p>
                     </div>
                 
-            </a>
+            </Link>
         )
     
   )
