@@ -25,7 +25,7 @@ const Navbar = () => {
                     padding:'0'
                 }}>
                     <li>
-                        <a href='#top'>
+                        <a href='/'>
                             <Image src={"/icon-512x512.png"} alt="My Logo" width={100} height={100} />
                         </a>
                     </li>
@@ -50,7 +50,7 @@ const Navbar = () => {
                         // paddingLeft:'50px',
                         cursor:'pointer',
                         marginTop:'-12px'
-                    }} href="#top"><Image src={"/icon-512x512.png"} alt="My Logo" width={100} height={100} /></a>
+                    }} href="/"><Image src={"/icon-512x512.png"} alt="My Logo" width={100} height={100} /></a>
             </div>
             <ul id='ul' style={{
                 padding:'0'
